@@ -70,7 +70,7 @@ pipeline {
 
     stage ("Install dependencies") {
       steps {
-        sh "yarn"
+        sh "yarn --network-concurrency 1"
       }
     }
 
