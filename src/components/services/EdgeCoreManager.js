@@ -39,7 +39,8 @@ const contextOptions: EdgeContextOptions = {
     }
   },
 
-  plugins: allPlugins
+  plugins: allPlugins,
+  authServer: 'https://login-test.edge.app/api'
 }
 
 const isReactNative = detectBundler.isReactNative
