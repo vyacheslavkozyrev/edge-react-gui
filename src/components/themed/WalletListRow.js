@@ -13,6 +13,7 @@ import { WalletListMenuModal } from '../modals/WalletListMenuModal.js'
 import { Airship } from '../services/AirshipInstance.js'
 import { type Theme, type ThemeProps, cacheStyles, withTheme } from '../services/ThemeContext.js'
 import { EdgeText } from './EdgeText.js'
+import { ThemedTicker } from './ThemedTicker'
 import { WalletProgressIcon } from './WalletProgressIcon.js'
 
 const FULL_WIDTH = Dimensions.get('window').width
@@ -190,14 +191,14 @@ class WalletListRowComponent extends React.PureComponent<Props & ThemeProps, Sta
               <View style={styles.detailsContainer}>
                 <View style={styles.detailsRow}>
                   <EdgeText style={styles.detailsCurrency}>{currencyCode}</EdgeText>
-                  <EdgeText style={[styles.exchangeRate, { color: differencePercentageStyle }]}>
-                    {exchangeRateFiatSymbol + exchangeRate + '  ' + differencePercentage}
-                  </EdgeText>
+                  <ThemedTicker style={[styles.exchangeRate, { color: differencePercentageStyle }]}>
+                    {exchangeRateFiatSymbol + exchangeRate + '     ' + differencePercentage}
+                  </ThemedTicker>
                   <EdgeText style={styles.detailsValue}>{cryptoAmount}</EdgeText>
                 </View>
                 <View style={styles.detailsRow}>
                   <EdgeText style={styles.detailsName}>{walletName}</EdgeText>
-                  <EdgeText style={styles.detailsFiat}>{fiatBalanceSymbol + fiatBalance}</EdgeText>
+                  <ThemedTicker style={styles.detailsFiat}>{fiatBalanceSymbol + fiatBalance}</ThemedTicker>
                 </View>
               </View>
             </View>

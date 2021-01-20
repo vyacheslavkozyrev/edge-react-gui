@@ -12,6 +12,7 @@ import type { TransactionListTx } from '../../types/types.js'
 import { SceneWrapper } from '../common/SceneWrapper.js'
 import { type ThemeProps, withTheme } from '../services/ThemeContext.js'
 import { BuyCrypto } from '../themed/BuyCrypto.js'
+import { ThemedTicker } from '../themed/ThemedTicker.js'
 import { EmptyLoader, SectionHeader, Top } from '../themed/TransactionListComponents.js'
 import { TransactionListRow } from '../themed/TransactionListRow.js'
 
