@@ -5125,10 +5125,9 @@ edge-components@^0.0.31:
   dependencies:
     react-native-linear-gradient "^2.4.0"
 
-edge-core-js@^0.17.26:
-  version "0.17.26"
-  resolved "https://registry.yarnpkg.com/edge-core-js/-/edge-core-js-0.17.26.tgz#882a2e8d2e2bcadb858a64e3e12a5cfd48e4352f"
-  integrity sha512-GucwagWf2ILw92jW0KoxZo4FNjlmUq7GONXAzpRI45QdBJDe7A3lp21xh7mhvZ9BbHelqKMAUYDiC9swD4gvcg==
+"edge-core-js@git://github.com/EdgeApp/edge-core-js.git#william/otp-repair":
+  version "0.17.24"
+  resolved "git://github.com/EdgeApp/edge-core-js.git#c3977b73e627140481dd5374477af9f147b8f7a3"
   dependencies:
     aes-js "^3.1.0"
     base-x "^1.0.4"
