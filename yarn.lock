@@ -4105,10 +4105,10 @@ cleaners@^0.3.1, cleaners@^0.3.2:
   resolved "https://registry.yarnpkg.com/cleaners/-/cleaners-0.3.2.tgz#e240a3837f5b2d59975f18d753dea7d1bab0fd4b"
   integrity sha512-SOjd7UOrU/8CF6V7QKZsfJB8MIBylrZOso+eJWYFaOm2jamKj7Wxbihg8vasnHzqtagv1vpwhN8xkD3liX/dIg==
 
-cleaners@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/cleaners/-/cleaners-0.3.3.tgz#e8c8a2b18d2d11037ed4d928310eb29c8e787ee6"
-  integrity sha512-6IgzKXTkTq4aWA2fxImk/Ux3dDhX7JPlfHbFVjDJ/6ASV/k3dl4qKgFDXvLWRiPS9t8Hn11AvDqPFjRVNQ3b0Q==
+cleaners@^0.3.7:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/cleaners/-/cleaners-0.3.7.tgz#b8fa056a430974d1125a1bb523ee128a6763fbfd"
+  integrity sha512-pRzWeIOXnbgJa211YAHjU1zW1kFMCdftJrB6DJC98nRAcd5XepWy0sAmvZ3kuh1g0y9gukRNSCli0+8aVNhwRg==
 
 cli-boxes@^2.2.0:
   version "2.2.1"
@@ -5125,15 +5125,14 @@ edge-components@^0.0.31:
   dependencies:
     react-native-linear-gradient "^2.4.0"
 
-edge-core-js@^0.17.26:
+"edge-core-js@git://github.com/EdgeApp/edge-core-js.git#sam/new-sync-server":
   version "0.17.26"
-  resolved "https://registry.yarnpkg.com/edge-core-js/-/edge-core-js-0.17.26.tgz#882a2e8d2e2bcadb858a64e3e12a5cfd48e4352f"
-  integrity sha512-GucwagWf2ILw92jW0KoxZo4FNjlmUq7GONXAzpRI45QdBJDe7A3lp21xh7mhvZ9BbHelqKMAUYDiC9swD4gvcg==
+  resolved "git://github.com/EdgeApp/edge-core-js.git#461763b907a55808d9c8684156c144bce6f4b3ff"
   dependencies:
     aes-js "^3.1.0"
     base-x "^1.0.4"
     biggystring "^3.0.2"
-    cleaners "^0.3.3"
+    cleaners "^0.3.7"
     currency-codes "^1.1.2"
     disklet "^0.4.5"
     elliptic "^6.4.0"
