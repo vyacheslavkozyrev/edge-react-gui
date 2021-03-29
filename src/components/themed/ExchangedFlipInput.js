@@ -118,7 +118,7 @@ function propsToState(props: Props): State {
 
 export class ExchangedFlipInput extends React.PureComponent<Props, State> {
   flipInput: ?React.ElementRef<typeof FlipInput>
-  toggleCryptoOnTop: ?() => void
+  toggleCryptoOnBottom: ?() => void
 
   static defaultProps = {
     isEditable: true
@@ -134,7 +134,7 @@ export class ExchangedFlipInput extends React.PureComponent<Props, State> {
   }
 
   componentDidMount() {
-    this.toggleCryptoOnTop = this.flipInput ? this.flipInput.toggleCryptoOnTop : undefined
+    this.toggleCryptoOnBottom = this.flipInput ? this.flipInput.toggleCryptoOnBottom : undefined
   }
 
   shouldComponentUpdate(nextProps: Props, nextState: State) {
