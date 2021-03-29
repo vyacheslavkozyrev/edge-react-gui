@@ -9,10 +9,10 @@ export const FEE_COLOR_THRESHOLD = 2.0 // this is denominated in dollars
 export const FEE_ALERT_THRESHOLD = 5.0 // this is denominated in dollars
 
 export const CURRENCY_SYMBOL_IMAGES = {
-  BCH: 'https://developer.airbitz.co/content/bitcoincash-logo-solo-64.png',
-  BTC: 'https://developer.airbitz.co/content/bitcoin-logo-solo-64.png',
-  ETH: 'https://developer.airbitz.co/content/ethereum-logo-solo-64.png',
-  ETC: 'https://developer.airbitz.co/content/ethereum-classic-logo-solo-64.png'
+  BCH: 'https://content.edge.app/bitcoincash-logo-solo-64.png',
+  BTC: 'https://content.edge.app/bitcoin-logo-solo-64.png',
+  ETH: 'https://content.edge.app/ethereum-logo-solo-64.png',
+  ETC: 'https://content.edge.app/ethereum-classic-logo-solo-64.png'
 }
 
 // Translations for custom fee keys:

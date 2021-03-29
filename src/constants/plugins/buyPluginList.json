@@ -575,7 +575,7 @@
     ],
     "description": "Fee: 2.5% / Settlement: 5min - 24hours\nLimit: $50000/day",
     "title": "POLi Bank Transfer",
-    "partnerIconPath": "https://developer.airbitz.co/content/banxa.png",
+    "partnerIconPath": "https://content.edge.app/banxa.png",
     "forCountries": [
       "GB",
       "AU",
@@ -601,7 +601,7 @@
     ],
     "description": "Fee: 5.5% / Settlement: 5min - 24hours\nLimit: $1000/day",
     "title": "Cash with Newsagent",
-    "partnerIconPath": "https://developer.airbitz.co/content/banxa.png",
+    "partnerIconPath": "https://content.edge.app/banxa.png",
     "forCountries": [
       "AU"
     ],
@@ -625,7 +625,7 @@
     ],
     "description": "Fee: 3% / Settlement: Instant\nLimit: $50000/day",
     "title": "PayID",
-    "partnerIconPath": "https://developer.airbitz.co/content/banxa.png",
+    "partnerIconPath": "https://content.edge.app/banxa.png",
     "forCountries": [
       "AU"
     ],
@@ -649,7 +649,7 @@
     ],
     "description": "Fee: 2% / Settlement: 1 - 48hours\nLimit: $10000+/day",
     "title": "BPay",
-    "partnerIconPath": "https://developer.airbitz.co/content/banxa.png",
+    "partnerIconPath": "https://content.edge.app/banxa.png",
     "forCountries": [
       "AU"
     ],
@@ -673,7 +673,7 @@
     ],
     "description": "Fee: 4.5% / Settlement: Instant\nLimit: $1000/day",
     "title": "Australia Post",
-    "partnerIconPath": "https://developer.airbitz.co/content/banxa.png",
+    "partnerIconPath": "https://content.edge.app/banxa.png",
     "forCountries": [
       "AU"
     ],
@@ -697,7 +697,7 @@
     ],
     "description": "Fee: 2.9% / Settlement: Instant\nLimit: $5000/day",
     "title": "Credit and Debit Card",
-    "partnerIconPath": "https://developer.airbitz.co/content/banxa.png",
+    "partnerIconPath": "https://content.edge.app/banxa.png",
     "forCountries": [
       "AU",
       "HK"
@@ -722,7 +722,7 @@
     ],
     "description": "Fee: 1.15% / Settlement: Instant - 3days\nDaily Limit: €14000\nMonthly Limit: €150000",
     "title": "Sofort - Klarna",
-    "partnerIconPath": "https://developer.airbitz.co/content/banxa.png",
+    "partnerIconPath": "https://content.edge.app/banxa.png",
     "forCountries": [
       "DE",
       "AT",
@@ -822,7 +822,7 @@
     ],
     "description": "Fee: 0.75% / Settlement: Instant\nLimit: ₹1,000,000/day",
     "title": "United Payments Interface",
-    "partnerIconPath": "https://developer.airbitz.co/content/transak_logo.png",
+    "partnerIconPath": "https://content.edge.app/transak_logo.png",
     "forCountries": [
       "IN"
     ],
@@ -846,7 +846,7 @@
     ],
     "description": "Fee: 0.75% / Settlement: 2min - 4hours\nLimit: ₹1,000,000/day",
     "title": "NEFT Transfer",
-    "partnerIconPath": "https://developer.airbitz.co/content/transak_logo.png",
+    "partnerIconPath": "https://content.edge.app/transak_logo.png",
     "forCountries": [
       "IN"
     ],
@@ -877,7 +877,7 @@
       "USDC",
       "DAI"
     ],
-    "partnerIconPath": "https://developer.airbitz.co/content/transak_logo.png",
+    "partnerIconPath": "https://content.edge.app/transak_logo.png",
     "paymentTypeLogoKey": "debit",
     "deepQuery": {
       "countryCode": "US",

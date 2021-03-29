@@ -457,7 +457,7 @@
     ],
     "description": "Fee: Varies / Settlement: 10 - 20min\nLimit: Varies",
     "title": "Cash",
-    "partnerIconPath": "https://developer.airbitz.co/content/mktg/bitaccess.png",
+    "partnerIconPath": "https://content.edge.app/mktg/bitaccess.png",
     "forCountries": [
       "US",
       "CA",
@@ -489,7 +489,7 @@
     ],
     "description": "Fee: 1.5% / Settlement: 5min - 24hours\nDaily Limit: $30000\nMonthly Limit: $500000",
     "title": "Bank Transfer",
-    "partnerIconPath": "https://developer.airbitz.co/content/banxa.png",
+    "partnerIconPath": "https://content.edge.app/banxa.png",
     "forCountries": [
       "AU"
     ],

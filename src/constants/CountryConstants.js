@@ -2,7 +2,7 @@
 
 import { type CountryData } from '../types/types.js'
 
-export const FLAG_LOGO_URL = 'https://developer.airbitz.co/content/country-logos'
+export const FLAG_LOGO_URL = 'https://content.edge.app/country-logos'
 
 export const COUNTRY_CODES: CountryData[] = [
   { name: 'Afghanistan', 'alpha-2': 'AF' },

@@ -29,8 +29,8 @@ describe('Transaction List Row', () => {
       enabledTokens: [],
       receiveAddress: { metadata: {}, nativeAmount: '0', publicAddress: '432hJPUp2C...' },
       blockHeight: 1688551,
-      symbolImage: 'https://developer.airbitz.co/content/monero-symbol-orange-64.png',
-      symbolImageDarkMono: 'https://developer.airbitz.co/content/monero-symbol-64-87939D.png',
+      symbolImage: 'https://content.edge.app/monero-symbol-orange-64.png',
+      symbolImageDarkMono: 'https://content.edge.app/monero-symbol-64-87939D.png',
       key: 'SXq1f3x21H2e/h5A4ANvrMoK5xs+sQcDoFWHtCG25BA='
     }
     const transaction = {
