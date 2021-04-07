@@ -1411,10 +1411,17 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.8.4":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.3.1":
+  version "7.13.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
+  integrity sha512-4QPkjJq6Ns3V/RgpEahRk+AGfL0eO6RHHtTWoNNr5mO49G6B5+X6d6THgWEAvTrznU5xYpbAlVKRYcsCgh/Akw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -5221,10 +5228,8 @@ edge-exchange-plugins@^0.11.23:
     iso4217 "^0.2.0"
     utf8 "^3.0.0"
 
-edge-login-ui-rn@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/edge-login-ui-rn/-/edge-login-ui-rn-0.8.1.tgz#69a9c73c223847598119890f9b3f07178d3427f0"
-  integrity sha512-RE0+yp1S8k8PL9yIrsMFqXuHgvOSbc5l68Eiw/Jt5bV8CSitsyq6GbUKZxAAkdz/fvOq7GEvVECgjq5dXo5UOg==
+"edge-login-ui-rn@file:../edge-login-ui-rn":
+  version "0.8.2"
   dependencies:
     cleaners "^0.3.1"
     qrcode-generator "^1.4.4"
@@ -5235,7 +5240,6 @@ edge-login-ui-rn@^0.8.1:
     react-native-localize "^2.0.2"
     react-native-mail "^6.0.0"
     react-native-material-textfield "git://github.com/EdgeApp/react-native-material-textfield.git"
-    react-native-modal "^11.0.1"
     react-native-patina "^0.1.3"
     react-native-share "^5.1.4"
     react-native-vector-icons "^7.1.0"
