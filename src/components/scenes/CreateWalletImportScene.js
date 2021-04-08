@@ -99,7 +99,7 @@ class CreateWalletImportComponent extends React.Component<Props, State> {
             <View style={styles.buttons}>
               <PrimaryButton style={styles.next} onPress={this.handleNext} disabled={isProcessing}>
                 {isProcessing ? (
-                  <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+                  <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
                 ) : (
                   <PrimaryButton.Text>{s.strings.string_next_capitalized}</PrimaryButton.Text>
                 )}

@@ -131,7 +131,7 @@ export default class ManageTokens extends React.Component<ManageTokensProps, Sta
               <View style={styles.buttonsArea}>
                 <PrimaryButton style={styles.saveButton} onPress={this.saveEnabledTokenList}>
                   {manageTokensPending ? (
-                    <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+                    <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
                   ) : (
                     <PrimaryButton.Text style={styles.buttonText}>{s.strings.string_save}</PrimaryButton.Text>
                   )}
@@ -144,7 +144,7 @@ export default class ManageTokens extends React.Component<ManageTokensProps, Sta
               <View style={styles.buttonsArea}>
                 <PrimaryButton style={styles.oneButton} onPress={this.saveEnabledTokenList}>
                   {manageTokensPending ? (
-                    <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+                    <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
                   ) : (
                     <PrimaryButton.Text style={styles.buttonText}>{s.strings.string_save}</PrimaryButton.Text>
                   )}

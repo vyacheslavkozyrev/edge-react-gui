@@ -43,7 +43,7 @@ export default class EdgeLoginScene extends React.Component<EdgeLoginSceneProps>
     if (this.props.isProcessing) {
       return (
         <View style={styles.buttonsProcessing}>
-          <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+          <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
         </View>
       )
     }
@@ -106,7 +106,7 @@ export default class EdgeLoginScene extends React.Component<EdgeLoginSceneProps>
         <SceneWrapper background="body">
           <View style={styles.spinnerContainer}>
             <Text style={styles.loadingTextBody}>{s.strings.edge_login_fetching}</Text>
-            <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+            <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
           </View>
         </SceneWrapper>
       )

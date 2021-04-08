@@ -37,6 +37,9 @@ import { type Theme } from '../../types/Theme.js'
 import { scale } from '../../util/scaling.js'
 
 const palette = {
+  primary: '#FF9400',
+  midnight: '#021F3F',
+  midnightDark: '#011327',
   white: '#FFFFFF',
   black: '#000000',
   royalBlue: '#003B65',
@@ -48,9 +51,9 @@ const palette = {
   gray: '#87939E',
   lightGray: '#D9E3ED',
   mutedBlue: '#2F5E89',
-  accentGreen: '#77C513',
-  accentRed: '#E85466',
-  accentBlue: '#0073D9',
+  accentGreen: '#05FF00',
+  accentRed: '#FD2532',
+  accentBlue: '#1248AB',
   accentOrange: '#F1AA19',
   darkBlueNavyGradient1: '#0C446A',
   darkBlueNavyGradient2: '#0D2145',
@@ -59,12 +62,15 @@ const palette = {
   blackOp50: 'rgba(0, 0, 0, .5)',
 
   whiteOp10: 'rgba(255, 255, 255, .1)',
+  whiteOp50: 'rgba(255, 255, 255, .5)',
   whiteOp75: 'rgba(255, 255, 255, .75)',
 
   grayOp80: 'rgba(135, 147, 158, .8)',
   accentOrangeOp30: 'rgba(241, 170, 25, .3)',
   lightGrayOp75: 'rgba(217, 227, 237, .75)',
   transparent: 'rgba(255, 255, 255, 0)',
+
+  midnightOp30: 'rgba(2, 31, 63, .3)',
 
   // Fonts
   SFUITextRegular: 'SF-UI-Text-Regular',
@@ -82,15 +88,15 @@ export const edgeDark: Theme = {
 
   // Icons
   icon: palette.white,
-  iconTappable: palette.edgeMint,
+  iconTappable: palette.primary,
   warningIcon: palette.accentOrange,
   iconLoadingOverlay: palette.whiteOp75,
   transactionListIconBackground: palette.darkBlue,
   buySellCustomPluginModalIcon: palette.darkBlue,
 
   // Background
-  backgroundGradientLeft: palette.edgeNavy,
-  backgroundGradientRight: palette.darkBlue,
+  backgroundGradientLeft: palette.midnight,
+  backgroundGradientRight: palette.midnight,
 
   // Modal
   modal: palette.royalBlue,
@@ -111,17 +117,17 @@ export const edgeDark: Theme = {
 
   // Text
   primaryText: palette.white,
-  secondaryText: palette.blueGray,
+  secondaryText: palette.whiteOp50,
   warningText: palette.accentOrange,
   positiveText: palette.accentGreen,
   negativeText: palette.accentRed,
   dangerText: palette.accentRed,
-  textLink: palette.edgeMint,
+  textLink: palette.primary,
   deactivatedText: palette.gray,
   // listHeaderText: palette.white,
 
   // Header
-  // headerText: palette.white,
+  headerText: palette.whiteOp50,
   // hamburgerButton: palette.white,
   // backButton: palette.white,
 
@@ -154,12 +160,12 @@ export const edgeDark: Theme = {
   // cardBackground: palette.edgeBlue,
   // cardShadow: palette.blackOp25,
 
-  tabBarBackground: palette.edgeNavy,
-  tabBarIcon: palette.white,
-  tabBarIconHighlighted: palette.edgeMint,
+  tabBarBackground: palette.primary,
+  tabBarIcon: palette.midnightOp30,
+  tabBarIconHighlighted: palette.midnight,
 
   sliderTabSend: palette.accentRed,
-  sliderTabRequest: palette.accentGreen,
+  sliderTabRequest: palette.primary,
   sliderTabMore: palette.accentBlue,
 
   // pinOutline: palette.white,

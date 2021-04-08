@@ -53,7 +53,7 @@ export class CryptoExchangeFlipInputWrapperComponent extends React.Component<Pro
       return (
         <View style={[styles.containerNoFee, styles.containerNoWalletSelected]}>
           <View style={styles.topRow}>
-            <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+            <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
           </View>
         </View>
       )
@@ -113,7 +113,7 @@ export class CryptoExchangeFlipInputWrapperComponent extends React.Component<Pro
 const rawStyles = {
   containerNoFee: {
     width: '90%',
-    backgroundColor: THEME.COLORS.OPACITY_WHITE,
+    backgroundColor: THEME.COLORS.BLUE_LIGHT,
     borderRadius: 3
   },
   containerNoWalletSelected: {

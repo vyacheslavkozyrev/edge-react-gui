@@ -61,7 +61,7 @@ export type Theme = {
   // listHeaderText: string,
 
   // Header
-  // headerText: string,
+  headerText: string,
   // hamburgerButton: string,
   // backButton: string,
 

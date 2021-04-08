@@ -37,6 +37,9 @@ import { type Theme } from '../../types/Theme.js'
 import { scale } from '../../util/scaling.js'
 
 const palette = {
+  primary: '#FF9400',
+  midnight: '#021F3F',
+  midnightDark: '#011327',
   black: '#000000',
   white: '#FFFFFF',
   whiteBlue: '#EEF3F6',
@@ -49,9 +52,9 @@ const palette = {
   lightestGray: '#F6F6F6',
   mutedBlue: '#2F5E89',
   mutedGray: '#EDEDED',
-  accentGreen: '#77C513',
-  accentRed: '#E85466',
-  accentBlue: '#0073D9',
+  accentGreen: '#05FF00',
+  accentRed: '#FD2532',
+  accentBlue: '#1248AB',
   accentOrange: '#FF8A00',
 
   blackOp25: 'rgba(0, 0, 0, .25)',
@@ -59,10 +62,13 @@ const palette = {
   blackOp10: 'rgba(0, 0, 0, .1)',
   grayOp80: 'rgba(135, 147, 158, .8)',
   whiteOp10: 'rgba(255, 255, 255, 0.1)',
+  whiteOp50: 'rgba(255, 255, 255, .5)',
   whiteOp75: 'rgba(255, 255, 255, .75)',
   accentOrangeOp30: 'rgba(241, 170, 25, .3)',
   lightGrayOp75: 'rgba(217, 227, 237, .75)',
   transparent: 'rgba(255, 255, 255, 0)',
+
+  midnightOp30: 'rgba(2, 31, 63, .3)',
 
   // Fonts
   SFUITextRegular: 'SF-UI-Text-Regular',
@@ -80,15 +86,15 @@ export const edgeLight: Theme = {
 
   // Icons
   icon: palette.black,
-  iconTappable: palette.edgeBlue,
+  iconTappable: palette.primary,
   warningIcon: palette.accentOrange,
   iconLoadingOverlay: palette.whiteOp75,
   transactionListIconBackground: palette.white,
   buySellCustomPluginModalIcon: palette.white,
 
   // Background
-  backgroundGradientLeft: palette.lightestGray,
-  backgroundGradientRight: palette.lightestGray,
+  backgroundGradientLeft: palette.midnight,
+  backgroundGradientRight: palette.midnight,
 
   // Modal
   modal: palette.lightestGray,
@@ -114,12 +120,12 @@ export const edgeLight: Theme = {
   positiveText: palette.accentGreen,
   negativeText: palette.accentRed,
   dangerText: palette.accentRed,
-  textLink: palette.edgeBlue,
+  textLink: palette.primary,
   deactivatedText: palette.gray,
   // listHeaderText: palette.black,
 
   // Header
-  // headerText: palette.black,
+  headerText: palette.whiteOp50,
   // hamburgerButton: palette.black,
   // backButton: palette.black,
 
@@ -152,12 +158,12 @@ export const edgeLight: Theme = {
   // cardBackground: palette.white,
   // cardShadow: palette.blackOp25,
 
-  tabBarBackground: palette.white,
-  tabBarIcon: palette.gray,
-  tabBarIconHighlighted: palette.edgeBlue,
+  tabBarBackground: palette.primary,
+  tabBarIcon: palette.midnightOp30,
+  tabBarIconHighlighted: palette.midnight,
 
   sliderTabSend: palette.accentRed,
-  sliderTabRequest: palette.accentGreen,
+  sliderTabRequest: palette.primary,
   sliderTabMore: palette.accentBlue,
 
   // pinOutline: palette.edgeBlue,

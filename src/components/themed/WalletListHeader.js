@@ -129,7 +129,8 @@ const getStyles = cacheStyles((theme: Theme) => ({
     marginHorizontal: theme.rem(1)
   },
   headerText: {
-    flex: 1
+    flex: 1,
+    color: theme.headerText
   },
   headerButtonsContainer: {
     flexDirection: 'row',
