@@ -231,7 +231,7 @@ export class SettingsSceneComponent extends React.Component<Props, State> {
           />
 
           <SettingsHeaderRow icon={<IonIcon name="ios-options" color={theme.icon} size={iconSize} />} text={s.strings.settings_options_title_cap} />
-          <SettingsRow text={s.strings.settings_exchange_settings} right={rightArrow} onPress={this._onPressExchangeSettings} />
+          {/* <SettingsRow text={s.strings.settings_exchange_settings} right={rightArrow} onPress={this._onPressExchangeSettings} /> */}
           <SettingsRow text={s.strings.spending_limits} right={rightArrow} onPress={this._onPressSpendingLimits} />
           <SettingsLabelRow
             text={s.strings.settings_title_auto_logoff}

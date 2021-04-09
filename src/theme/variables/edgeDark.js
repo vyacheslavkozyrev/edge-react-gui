@@ -101,7 +101,7 @@ export const edgeDark: Theme = {
   // Modal
   modal: palette.royalBlue,
   modalBlurType: 'light',
-  modalCloseIcon: palette.edgeMint,
+  modalCloseIcon: palette.primary,
   // modalFullGradientLeft: palette.darkBlue,
   // modalFullGradientRight: palette.edgeNavy,
 
@@ -134,13 +134,13 @@ export const edgeDark: Theme = {
   // Buttons
   // Should add palette when pressed
   primaryButtonOutline: palette.transparent,
-  primaryButton: palette.edgeMint,
-  primaryButtonText: palette.edgeBlue,
+  primaryButton: palette.primary,
+  primaryButtonText: palette.white,
   // primaryButtonDeactivated: palette.gray,
 
-  secondaryButtonOutline: palette.edgeMint,
-  secondaryButton: palette.transparent,
-  secondaryButtonText: palette.edgeMint,
+  secondaryButtonOutline: palette.transparent,
+  secondaryButton: palette.primary,
+  secondaryButtonText: palette.white,
 
   // tertiaryButtonOutline: palette.edgeMint,
   // tertiaryButton: palette.transparent,
@@ -174,7 +174,7 @@ export const edgeDark: Theme = {
   // radioButtonOutline: palette.lightGray,
   // radioButtonFilled: palette.edgeMint,
 
-  toggleButton: palette.edgeMint,
+  toggleButton: palette.primary,
   toggleButtonOff: palette.gray,
   // toggleButtonThumb: palette.white,
 
@@ -224,7 +224,7 @@ export const edgeDark: Theme = {
   dateModalBackgroundDark: palette.edgeBlue,
 
   // Wallet Icon Progress
-  walletProgressIconFill: palette.edgeMint,
+  walletProgressIconFill: palette.primary,
   walletProgressIconFillDone: palette.transparent,
   walletProgressIconBackground: palette.transparent,
 
