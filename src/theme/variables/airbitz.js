@@ -53,16 +53,17 @@ export const THEME = {
     PRIMARY_BUTTON_TOUCHED: 'rgba(42,87,153,0.55)',
     PRIMARY_BUTTON_2_TOUCHED: 'rgba(102,237,168,0.6)',
     BLUE_3: '#0E507D',
+    BLUE_LIGHT: '#546A82',
 
     GRADIENT: {
       DARK: '#0D2145',
       LIGHT: '#0E4B75'
     },
 
-    ACCENT_BLUE: '#0073D9', // Airbitz blue
+    ACCENT_BLUE: '#1248AB', // Airbitz blue
     ACCENT_ORANGE: '#F1AA19',
     ACCENT_RED: '#E85466',
-    ACCENT_MINT: '#66EDA8',
+    ACCENT_PRIMARY: '#FF9400',
 
     BLACK: '#25292C',
     GRAY_1: '#4A5157',

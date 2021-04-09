@@ -10,7 +10,7 @@ export const LoadingScene = () => {
   return (
     <SceneWrapper background="header" hasHeader={false} hasTabs={false}>
       <View style={styles.container}>
-        <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} size="large" />
+        <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} size="large" />
       </View>
     </SceneWrapper>
   )

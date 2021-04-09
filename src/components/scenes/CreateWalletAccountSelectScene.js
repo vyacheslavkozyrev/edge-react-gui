@@ -157,7 +157,7 @@ export class CreateWalletAccountSelect extends React.Component<Props, State> {
         <View style={styles.buttons}>
           <PrimaryButton disabled={isSelectWalletDisabled} style={styles.next} onPress={this.onPressSelect}>
             {isSelectWalletDisabled ? (
-              <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+              <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
             ) : (
               <PrimaryButton.Text>{s.strings.create_wallet_account_select_wallet}</PrimaryButton.Text>
             )}
@@ -232,7 +232,7 @@ export class CreateWalletAccountSelect extends React.Component<Props, State> {
           <PrimaryButton disabled={isContinueButtonDisabled} style={styles.confirmButton} onPress={this.onPressSubmit}>
             {/* we want it disabled with activity indicator if creating wallet, or wallet is created and pending quote */}
             {isContinueButtonDisabled ? (
-              <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+              <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
             ) : (
               <PrimaryButton.Text>{s.strings.legacy_address_modal_continue}</PrimaryButton.Text>
             )}

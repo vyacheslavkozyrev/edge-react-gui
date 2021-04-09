@@ -152,7 +152,7 @@ export class CreateWalletAccountSetup extends React.Component<Props, State> {
               />
               <View style={{ width: scale(25), height: scale(25) }}>
                 {isCheckingHandleAvailability ? (
-                  <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} style={styles.feedbackIcon} />
+                  <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} style={styles.feedbackIcon} />
                 ) : (
                   <Image source={validityIcon} style={styles.feedbackIcon} />
                 )}

@@ -13,7 +13,7 @@ export function CryptoExchangeQuoteProcessingScreenComponent(props: {}) {
   return (
     <SceneWrapper background="header" hasTabs={false}>
       <View style={styles.top}>
-        <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+        <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
       </View>
       <View style={styles.bottom}>
         <FormattedText style={styles.momentText} isBold>

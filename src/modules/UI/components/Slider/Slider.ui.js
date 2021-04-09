@@ -84,7 +84,7 @@ export class Slider extends React.Component<Props, State> {
         />
 
         {this.props.showSpinner ? (
-          <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} style={styles.activityIndicator} />
+          <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} style={styles.activityIndicator} />
         ) : (
           <Text style={styles.textOverlay}>{sliderText}</Text>
         )}
@@ -105,7 +105,7 @@ const rawStyles = {
     width: 52,
     height: 52,
     position: 'absolute',
-    backgroundColor: THEME.COLORS.ACCENT_MINT,
+    backgroundColor: THEME.COLORS.ACCENT_PRIMARY,
     borderRadius: 52
   },
   disabledThumb: {

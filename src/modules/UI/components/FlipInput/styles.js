@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
   container: {
     width: '90%',
     minHeight: Platform.OS === 'ios' ? THEME.rem(7.875) : THEME.rem(8.5),
-    backgroundColor: THEME.COLORS.BLUE_3,
+    backgroundColor: THEME.COLORS.ACCENT_BLUE,
     borderRadius: 5,
     flexDirection: 'column',
     alignSelf: 'center',

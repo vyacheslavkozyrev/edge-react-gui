@@ -44,7 +44,7 @@ const rawStyles = {
     backgroundColor: THEME.COLORS.GRAY_4
   },
   text: {
-    color: THEME.COLORS.ACCENT_MINT,
+    color: THEME.COLORS.ACCENT_PRIMARY,
     textAlign: 'center',
     marginRight: '2%',
     marginLeft: '2%'

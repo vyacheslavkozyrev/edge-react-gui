@@ -127,7 +127,7 @@ class EditTokenComponent extends React.Component<Props, State> {
               </TertiaryButton>
               <PrimaryButton style={styles.saveButton} onPress={this._onSave}>
                 {editCustomTokenProcessing ? (
-                  <ActivityIndicator color={THEME.COLORS.ACCENT_MINT} />
+                  <ActivityIndicator color={THEME.COLORS.ACCENT_PRIMARY} />
                 ) : (
                   <PrimaryButton.Text>{s.strings.string_save}</PrimaryButton.Text>
                 )}
