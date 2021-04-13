@@ -1,7 +1,7 @@
 // @flow
 
 import { type Theme } from '../../../types/Theme.js'
-import transferFullLogo from '../edgeLogo/Edge_logo_Large.png'
+import transferFullLogo from '../logo/logo_88x88.png'
 import changellyFullLogo from './exchange_logo_changelly.png'
 import changenowFullLogo from './exchange_logo_changenow.png'
 import coinswitchFullLogo from './exchange_logo_coinswitch.png'

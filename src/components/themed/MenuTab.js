@@ -22,7 +22,7 @@ const title = {
   [Constants.WALLET_LIST]: s.strings.title_wallets,
   [Constants.PLUGIN_BUY]: s.strings.title_buy,
   [Constants.PLUGIN_SELL]: s.strings.title_sell,
-  [Constants.EXCHANGE]: s.strings.title_exchange
+  // [Constants.EXCHANGE]: s.strings.title_exchange
 }
 
 class MenuTabComponent extends React.PureComponent<Props> {
@@ -46,7 +46,7 @@ class MenuTabComponent extends React.PureComponent<Props> {
             [Constants.WALLET_LIST]: <Fontello name="wallet-1" size={theme.rem(1.25)} color={color} />,
             [Constants.PLUGIN_BUY]: <Fontello name="buy" size={theme.rem(1.25)} color={color} />,
             [Constants.PLUGIN_SELL]: <Fontello name="sell" size={theme.rem(1.25)} color={color} />,
-            [Constants.EXCHANGE]: <Ionicon name="swap-horizontal" size={theme.rem(1.25)} color={color} />
+            // [Constants.EXCHANGE]: <Ionicon name="swap-horizontal" size={theme.rem(1.25)} color={color} />
           }
           return (
             <TouchableOpacity style={styles.content} key={element.key} onPress={() => this.handleOnPress(element.key)}>

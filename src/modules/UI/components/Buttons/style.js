@@ -27,7 +27,7 @@ export const rawStyles = {
   primaryButton: {
     backgroundColor: THEME.COLORS.ACCENT_PRIMARY
   },
-  primaryButtonUnderlay: { color: THEME.COLORS.PRIMARY },
+  primaryButtonUnderlay: { color: THEME.COLORS.PRIMARY_DARK },
   primaryButtonText: {
     color: THEME.COLORS.WHITE
   },

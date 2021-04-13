@@ -3,7 +3,7 @@
 import * as React from 'react'
 import { Image, Text, TouchableHighlight, View } from 'react-native'
 
-import edgeLogo from '../../assets/images/edgeLogo/Edge_logo_Icon.png'
+import edgeLogo from '../../assets/images/logo/logo_40x40.png'
 import s from '../../locales/strings.js'
 import { PrimaryButton } from '../../modules/UI/components/Buttons/PrimaryButton.ui.js'
 import { LadderLayout } from '../common/LadderLayout'

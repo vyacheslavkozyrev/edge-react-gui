@@ -3,7 +3,7 @@
 import * as React from 'react'
 import { Image, View } from 'react-native'
 
-import edgeLogo from '../../assets/images/edgeLogo/Edge_Logo_Icon.png'
+import edgeLogo from '../../assets/images/logo/logo_40x40.png'
 import { type Theme, cacheStyles, useTheme } from '../services/ThemeContext.js'
 
 export function EdgeLogoHeader() {

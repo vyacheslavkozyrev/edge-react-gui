@@ -52,8 +52,8 @@ export default class Main extends React.Component<Props> {
               <Separator />
               <SellButton />
               <Separator />
-              <ExchangeButton />
-              <Separator />
+              {/* <ExchangeButton />
+              <Separator /> */}
               <FioAddressButton />
               <Separator />
               <FioRequestsButton />
